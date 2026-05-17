@@ -43,7 +43,7 @@ export function Comparison() {
         </p>
       </div>
 
-      <div className="mt-12 overflow-hidden rounded-2xl border border-[var(--color-line)] bg-white">
+      <div className="mt-12 overflow-hidden rounded-2xl border border-[var(--color-line)] bg-[var(--color-elevated)]">
         <div className="grid grid-cols-1 divide-y divide-[var(--color-line)] md:grid-cols-[1fr_1.4fr_1.4fr] md:divide-y-0 md:divide-x">
           <div className="hidden bg-[var(--color-surface-tint)] px-6 py-4 text-xs font-semibold uppercase tracking-wider text-[var(--color-muted)] md:block">
             &nbsp;

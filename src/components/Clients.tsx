@@ -18,7 +18,7 @@ export function Clients() {
           <a
             key={c.name}
             href={c.href}
-            className="group flex flex-col items-center justify-center gap-2 rounded-2xl border border-[var(--color-line)] bg-white px-4 py-6 transition hover:-translate-y-0.5 hover:border-[var(--color-ink-soft)]"
+            className="group flex flex-col items-center justify-center gap-2 rounded-2xl border border-[var(--color-line)] bg-[var(--color-elevated)] px-4 py-6 transition hover:-translate-y-0.5 hover:border-[var(--color-ink-soft)]"
           >
             <ClientGlyph name={c.name} />
             <div className="text-sm font-medium text-[var(--color-ink)]">

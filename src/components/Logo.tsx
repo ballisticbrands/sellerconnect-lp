@@ -7,7 +7,13 @@ export function Logo({ className }: { className?: string }) {
       aria-hidden="true"
       className={className}
     >
-      <rect width="32" height="32" rx="8" fill="var(--color-ink)" />
+      <rect
+        width="32"
+        height="32"
+        rx="8"
+        fill="var(--color-elevated)"
+        stroke="var(--color-line)"
+      />
       <path
         d="M8 16c0-3.314 2.686-6 6-6h2.5"
         stroke="var(--color-accent)"
@@ -16,7 +22,7 @@ export function Logo({ className }: { className?: string }) {
       />
       <path
         d="M24 16c0 3.314-2.686 6-6 6h-2.5"
-        stroke="white"
+        stroke="var(--color-ink)"
         strokeWidth="2.2"
         strokeLinecap="round"
       />

@@ -73,7 +73,10 @@ export function Footer() {
           <Column title="Company" links={companyLinks} />
         </div>
         <div className="mt-12 flex flex-col gap-2 border-t border-[var(--color-line)] pt-6 text-xs text-[var(--color-muted)] sm:flex-row sm:items-center sm:justify-between">
-          <div>© {new Date().getFullYear()} SellerConnect. All rights reserved.</div>
+          <div>
+            © {new Date().getFullYear()} Kitchendom LLC. SellerConnect is a
+            product of Kitchendom LLC. All rights reserved.
+          </div>
           <div className="font-mono">{site.domain}</div>
         </div>
       </div>

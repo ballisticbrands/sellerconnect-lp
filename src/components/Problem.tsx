@@ -34,7 +34,7 @@ export function Problem() {
           {points.map((p) => (
             <li
               key={p.title}
-              className="rounded-2xl border border-[var(--color-line)] bg-white p-6"
+              className="rounded-2xl border border-[var(--color-line)] bg-[var(--color-elevated)] p-6"
             >
               <div className="text-base font-semibold text-[var(--color-ink)]">
                 {p.title}

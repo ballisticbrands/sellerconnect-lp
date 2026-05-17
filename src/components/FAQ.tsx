@@ -40,7 +40,7 @@ export function FAQ() {
           Questions, answered.
         </h2>
       </div>
-      <div className="mx-auto mt-10 max-w-3xl divide-y divide-[var(--color-line)] rounded-2xl border border-[var(--color-line)] bg-white">
+      <div className="mx-auto mt-10 max-w-3xl divide-y divide-[var(--color-line)] rounded-2xl border border-[var(--color-line)] bg-[var(--color-elevated)]">
         {faqs.map((f, i) => (
           <details key={f.q} className="group px-6 py-5" open={i === 0}>
             <summary className="flex cursor-pointer list-none items-start justify-between gap-4 text-left">

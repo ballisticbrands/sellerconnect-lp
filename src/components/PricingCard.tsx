@@ -14,14 +14,14 @@ export function PricingCard({ tier }: { tier: Tier }) {
   return (
     <div
       className={clsx(
-        "relative flex flex-col rounded-2xl border bg-white p-7",
+        "relative flex flex-col rounded-2xl border bg-[var(--color-elevated)] p-7",
         tier.highlight
-          ? "border-[var(--color-ink)] shadow-[0_30px_60px_-30px_rgba(11,15,19,0.30)]"
+          ? "border-[var(--color-accent)] shadow-[0_30px_60px_-30px_rgba(20,212,208,0.35)]"
           : "border-[var(--color-line)]",
       )}
     >
       {tier.highlight && (
-        <div className="absolute -top-3 left-7 inline-flex items-center rounded-full bg-[var(--color-ink)] px-2.5 py-1 font-mono text-[10px] uppercase tracking-[0.14em] text-white">
+        <div className="absolute -top-3 left-7 inline-flex items-center rounded-full bg-[var(--color-accent)] px-2.5 py-1 font-mono text-[10px] uppercase tracking-[0.14em] text-[var(--color-surface)]">
           Most popular
         </div>
       )}
@@ -51,8 +51,8 @@ export function PricingCard({ tier }: { tier: Tier }) {
         className={clsx(
           "mt-8 inline-flex h-11 items-center justify-center rounded-full px-6 text-sm font-medium transition",
           tier.highlight
-            ? "bg-[var(--color-ink)] text-white hover:bg-[var(--color-ink-soft)]"
-            : "border border-[var(--color-line)] bg-white text-[var(--color-ink)] hover:border-[var(--color-ink-soft)]",
+            ? "bg-[var(--color-ink)] text-[var(--color-surface)] hover:bg-white"
+            : "border border-[var(--color-line)] bg-[var(--color-elevated)] text-[var(--color-ink)] hover:border-[var(--color-ink-soft)]",
         )}
       >
         {tier.cta.label}

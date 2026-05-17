@@ -5,20 +5,25 @@
   --font-mono: "Geist Mono", ui-monospace, SFMono-Regular, Menlo, Monaco,
     Consolas, "Liberation Mono", "Courier New", monospace;
 
-  --color-ink: #0b0f13;
-  --color-ink-soft: #2a3138;
-  --color-muted: #5a6470;
-  --color-line: #e6e8ec;
-  --color-line-soft: #f1f3f6;
-  --color-surface: #ffffff;
-  --color-surface-tint: #f7f9fb;
-  --color-accent: #0c8c8a;
-  --color-accent-soft: #d6f0ef;
-  --color-accent-ink: #074d4c;
+  --color-surface: #0a0a0b;
+  --color-surface-tint: #0f1114;
+  --color-elevated: #16191d;
+  --color-elevated-2: #1c2026;
+
+  --color-ink: #f4f6f8;
+  --color-ink-soft: #b8bec6;
+  --color-muted: #6a727b;
+
+  --color-line: #232830;
+  --color-line-soft: #1a1d22;
+
+  --color-accent: #14d4d0;
+  --color-accent-soft: rgba(20, 212, 208, 0.14);
+  --color-accent-ink: #5ee5e1;
 }
 
 :root {
-  color-scheme: light;
+  color-scheme: dark;
 }
 
 html,

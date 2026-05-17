@@ -76,7 +76,7 @@ export default function PricingPage() {
             </h2>
           </div>
 
-          <div className="mx-auto mt-10 max-w-4xl overflow-hidden rounded-2xl border border-[var(--color-line)] bg-white">
+          <div className="mx-auto mt-10 max-w-4xl overflow-hidden rounded-2xl border border-[var(--color-line)] bg-[var(--color-elevated)]">
             <div className="grid grid-cols-[1.6fr_1fr_1fr_1fr] border-b border-[var(--color-line)] bg-[var(--color-surface-tint)] px-6 py-4 text-xs font-semibold uppercase tracking-wider text-[var(--color-muted)]">
               <div />
               <div className="text-center">Trial</div>
@@ -85,7 +85,7 @@ export default function PricingPage() {
             </div>
             {comparison.map((g) => (
               <div key={g.group}>
-                <div className="grid grid-cols-[1.6fr_1fr_1fr_1fr] border-b border-[var(--color-line)] bg-white px-6 py-3 font-mono text-[11px] uppercase tracking-wider text-[var(--color-accent-ink)]">
+                <div className="grid grid-cols-[1.6fr_1fr_1fr_1fr] border-b border-[var(--color-line)] bg-[var(--color-elevated)] px-6 py-3 font-mono text-[11px] uppercase tracking-wider text-[var(--color-accent-ink)]">
                   <div>{g.group}</div>
                   <div />
                   <div />

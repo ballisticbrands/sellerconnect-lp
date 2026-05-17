@@ -32,7 +32,7 @@ export function Setup() {
         {steps.map((s) => (
           <li
             key={s.n}
-            className="relative rounded-2xl border border-[var(--color-line)] bg-white p-6"
+            className="relative rounded-2xl border border-[var(--color-line)] bg-[var(--color-elevated)] p-6"
           >
             <div className="font-mono text-xs text-[var(--color-accent-ink)]">
               {s.n}
@@ -49,7 +49,7 @@ export function Setup() {
       <div className="mt-10 flex justify-center">
         <a
           href={site.docsUrl}
-          className="inline-flex h-10 items-center rounded-full border border-[var(--color-line)] bg-white px-5 text-sm font-medium text-[var(--color-ink)] transition hover:border-[var(--color-ink-soft)]"
+          className="inline-flex h-10 items-center rounded-full border border-[var(--color-line)] bg-[var(--color-elevated)] px-5 text-sm font-medium text-[var(--color-ink)] transition hover:border-[var(--color-ink-soft)]"
         >
           Read the docs →
         </a>

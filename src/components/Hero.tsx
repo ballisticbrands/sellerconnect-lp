@@ -6,11 +6,11 @@ export function Hero() {
     <section className="relative overflow-hidden border-b border-[var(--color-line)]">
       <div
         aria-hidden
-        className="pointer-events-none absolute inset-0 bg-[radial-gradient(60%_50%_at_50%_-10%,rgba(12,140,138,0.10),transparent_60%)]"
+        className="pointer-events-none absolute inset-0 bg-[radial-gradient(70%_55%_at_50%_-10%,rgba(20,212,208,0.18),transparent_65%)]"
       />
       <div className="relative mx-auto max-w-6xl px-6 pt-20 pb-24 sm:pt-28 sm:pb-32">
         <div className="mx-auto max-w-3xl text-center">
-          <div className="inline-flex items-center gap-2 rounded-full border border-[var(--color-line)] bg-white px-3 py-1 font-mono text-xs uppercase tracking-[0.14em] text-[var(--color-muted)]">
+          <div className="inline-flex items-center gap-2 rounded-full border border-[var(--color-line)] bg-[var(--color-elevated)] px-3 py-1 font-mono text-xs uppercase tracking-[0.14em] text-[var(--color-muted)]">
             <span className="size-1.5 rounded-full bg-[var(--color-accent)]" />
             Now in beta · US marketplace
           </div>
@@ -30,13 +30,13 @@ export function Hero() {
           <div className="mt-9 flex flex-col items-center justify-center gap-3 sm:flex-row">
             <a
               href={site.signupUrl}
-              className="inline-flex h-11 items-center rounded-full bg-[var(--color-ink)] px-6 text-sm font-medium text-white transition hover:bg-[var(--color-ink-soft)]"
+              className="inline-flex h-11 items-center rounded-full bg-[var(--color-ink)] px-6 text-sm font-medium text-[var(--color-surface)] transition hover:bg-white"
             >
               Start 7-day free trial
             </a>
             <Link
               href="#features"
-              className="inline-flex h-11 items-center rounded-full border border-[var(--color-line)] bg-white px-6 text-sm font-medium text-[var(--color-ink)] transition hover:border-[var(--color-ink-soft)]"
+              className="inline-flex h-11 items-center rounded-full border border-[var(--color-line)] bg-[var(--color-elevated)] px-6 text-sm font-medium text-[var(--color-ink)] transition hover:border-[var(--color-ink-soft)]"
             >
               See what your agent can do →
             </Link>
@@ -56,8 +56,8 @@ export function Hero() {
 
 function TerminalPreview() {
   return (
-    <div className="mx-auto max-w-3xl overflow-hidden rounded-2xl border border-[var(--color-line)] bg-white shadow-[0_30px_80px_-30px_rgba(11,15,19,0.18)]">
-      <div className="flex items-center justify-between border-b border-[var(--color-line)] bg-[var(--color-surface-tint)] px-4 py-2.5">
+    <div className="mx-auto max-w-3xl overflow-hidden rounded-2xl border border-[var(--color-line)] bg-[var(--color-elevated)] shadow-[0_30px_80px_-30px_rgba(0,0,0,0.7)]">
+      <div className="flex items-center justify-between border-b border-[var(--color-line)] bg-[var(--color-elevated-2)] px-4 py-2.5">
         <div className="flex gap-1.5">
           <span className="size-2.5 rounded-full bg-[#fa6258]" />
           <span className="size-2.5 rounded-full bg-[#fab43e]" />
@@ -89,7 +89,7 @@ function TerminalPreview() {
           </span>
           …
         </div>
-        <div className="rounded-lg border border-dashed border-[var(--color-line)] bg-[var(--color-surface-tint)] p-3 text-[var(--color-ink)]">
+        <div className="rounded-lg border border-dashed border-[var(--color-line)] bg-[var(--color-surface)] p-3 text-[var(--color-ink)]">
           3 ASINs dropped &gt;5 positions on tracked terms:
           <div className="mt-1.5 text-[var(--color-ink-soft)]">
             B0CXX1 · &quot;wireless earbuds&quot; · #4 → #11 (−7)

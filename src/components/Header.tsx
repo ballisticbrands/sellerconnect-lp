@@ -4,11 +4,13 @@ import { Logo } from "./Logo";
 
 export function Header() {
   return (
-    <header className="sticky top-0 z-30 border-b border-[var(--color-line)] bg-white/80 backdrop-blur">
+    <header className="sticky top-0 z-30 border-b border-[var(--color-line)] bg-[var(--color-surface)]/85 backdrop-blur">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
         <Link href="/" className="flex items-center gap-2 text-[var(--color-ink)]">
           <Logo className="h-7 w-7" />
-          <span className="text-[15px] font-semibold tracking-tight">{site.name}</span>
+          <span className="text-[15px] font-semibold tracking-tight">
+            SellerConnect<span className="text-[var(--color-muted)]">.ai</span>
+          </span>
         </Link>
         <nav className="hidden items-center gap-7 text-sm text-[var(--color-ink-soft)] md:flex">
           <Link href="/#features" className="hover:text-[var(--color-ink)]">
@@ -33,7 +35,7 @@ export function Header() {
           </a>
           <a
             href={site.signupUrl}
-            className="inline-flex h-9 items-center rounded-full bg-[var(--color-ink)] px-4 text-sm font-medium text-white transition hover:bg-[var(--color-ink-soft)]"
+            className="inline-flex h-9 items-center rounded-full bg-[var(--color-ink)] px-4 text-sm font-medium text-[var(--color-surface)] transition hover:bg-white"
           >
             Start trial
           </a>

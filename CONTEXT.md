@@ -44,6 +44,16 @@ The HAR captures every asset loaded during a real browse, including:
 5. **Do not commit the HAR file.** It's operator-local.
 6. Do not copy proprietary illustrations / images verbatim — note the style and commission/generate fresh assets. Copy is fine to adapt; pixel-identical visuals invite legal trouble.
 
+## Branding — single source of truth
+
+**Colors, typography, voice, and component primitives live in
+[`sellerconnect-marketing/BRANDING.md`](https://github.com/ballisticbrands/sellerconnect-marketing/blob/main/BRANDING.md).**
+Read it before you change any visual treatment in this repo. If you find
+yourself wanting to invent a new color or weight, edit BRANDING.md first,
+then propagate to `src/app/globals.css` and the components here. The LP is
+the live ground truth — if it drifts from BRANDING.md, the LP wins and
+BRANDING.md needs an update.
+
 ## Stack
 
 - **Framework**: Next.js (App Router) + TypeScript — static export OR server-rendered, your choice; static export gives easier CDN deployment.

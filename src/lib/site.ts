@@ -4,8 +4,8 @@ export const site = {
   url: "https://sellerconnect.ai",
   appUrl: "https://app.sellerconnect.ai",
   docsUrl: "https://docs.sellerconnect.ai",
-  signupUrl: "https://app.sellerconnect.ai/signup",
-  signinUrl: "https://app.sellerconnect.ai/signin",
+  signupUrl: "https://app.sellerconnect.ai/sign-up",
+  signinUrl: "https://app.sellerconnect.ai/sign-in",
   tagline: "MCP server for Amazon sellers",
 } as const;
 
@@ -21,7 +21,7 @@ export const pricing = {
       "Up to one API key with full tool scope",
       "Email support",
     ],
-    cta: { label: "Start 7-day free trial", href: "https://app.sellerconnect.ai/signup" },
+    cta: { label: "Start 7-day free trial", href: "https://app.sellerconnect.ai/sign-up" },
     highlight: false,
   },
   ads: {
@@ -38,7 +38,7 @@ export const pricing = {
       "One Amazon Ads profile included",
       "Data retained from the day you connect",
     ],
-    cta: { label: "Start 7-day free trial", href: "https://app.sellerconnect.ai/signup" },
+    cta: { label: "Start 7-day free trial", href: "https://app.sellerconnect.ai/sign-up" },
     highlight: false,
   },
   full: {
@@ -55,7 +55,7 @@ export const pricing = {
       "Settlement economics and profitability review",
       "Priority email support",
     ],
-    cta: { label: "Start 7-day free trial", href: "https://app.sellerconnect.ai/signup" },
+    cta: { label: "Start 7-day free trial", href: "https://app.sellerconnect.ai/sign-up" },
     highlight: true,
   },
 } as const;
